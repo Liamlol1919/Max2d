@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: 'Varela Round', Helvetica;
+    margin: 0px;
+    padding: 0px;
+    color: #F2F2F2;
+    background-color: #3061F2;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+#menu {
+    width: 100%;
+    height: 90px;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    transition-duration: 0.4s;
+}
+
+.nav {
+    background-color: #F29F05;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #F29F05;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.section {
+    width: 100%;
+    height: calc(410px + 55vh);
+}
+
+#s1 {
+    background-color: #3061F2;
+}
+#s2 {
+    background-color: #304EF2;
+}
+#s3 {
+    background-color: #3061F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.inside,.topstuff {
+    padding: 10px;
+    padding-left: 18px;
+}
+
+.inside h1 {
+    font-size: 80px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#welcto {
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: 700;
+    margin-bottom: 10vh;
+}
+
+svg {
+    fill: #F2F2F2;
+}
+
+.texxt {
+    font-weight: 600;
+    font-size: calc(20px + 1vh);
+    margin-top: 5vh;
+}
+
+
+/* Section 2 */
+.sec2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2 h2 {
+    font-size: 50px;
+}
+
+.u {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 25px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #3061F2;
+    outline: 5px solid #f29f0500;
+    outline-offset: -5px;
+    transition-duration: 0.6s;
+        box-shadow: inset 0px 2px 0px 10px rgba(48, 97, 242, 0);
+}
+
+.u:hover{
+    outline: 5px solid #f29f05;
+    transition-duration: 0.3s;
+    backgrund-color: hsl(225, 88%, 60%);
+    background-color: #304EF2;
+    box-shadow: inset 0px 2px 0px 10px rgba(48, 97, 242, 100);
+}
+
+.buts {
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3{
+    line-height: 20px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+#s2{
+    height: 900px;
+}
+
+a{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+
+
+
+.iconn{
+    transition-duration: 0.4s;
+}
+
+.iconn:active{
+    scale: 55%;
+}
+
+/* page 3 */
+
+#pag3 h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#s3 .lesons{
+    font-size: 50px;
+}
+
+#pag3 .texxt{
+    text-align: left;
+}
